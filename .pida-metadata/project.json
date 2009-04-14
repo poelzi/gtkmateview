@@ -1,0 +1,22 @@
+{
+  "targets":[
+    {
+      "name":"full build",
+      "actions":[
+        {
+          "type":"shell",
+          "options":{},
+          "value":"cmake ."
+        },
+        {
+          "type":"shell",
+          "options":{},
+          "value":"make clean all"
+        }
+      ]
+    }
+  ],
+  "options":{
+    "name":"gtkmateview"
+  }
+}
