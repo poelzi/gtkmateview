@@ -8,3 +8,7 @@ lib/semantic.cache
 *.so
 lib/*.c
 lib/*.h
+CMakeFiles
+Makefile
+cmake_install.cmake
+CMakeCache.txt
